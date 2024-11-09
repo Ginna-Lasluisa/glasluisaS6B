@@ -64,7 +64,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\vInsertarEstudiante.xaml.cs">
+	    <DependentUpon>vInsertarEstudiante.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\vActualizarEliminar.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\vEstudiante.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\vInsertarEstudiante.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

@@ -8,7 +8,7 @@ namespace glasluisaS6B
         {
             InitializeComponent();
 
-            MainPage = new vEstudiante();
+            MainPage = new NavigationPage (new vEstudiante());
         }
     }
 }
